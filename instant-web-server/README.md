@@ -20,10 +20,11 @@ This project sets up an NGINX web server running in a local Docker container wit
 export WEBSERVER_DIR=$HOME/my-nginx-server
 export WEBSERVER_PORT=8080
 ./run_nginx.sh
-
+```
 
 ```powershell
 $env:WEBSERVER_DIR="$env:USERPROFILE\my-nginx-server"
 $env:WEBSERVER_PORT="8080"
 .\run_nginx.ps1
+```
 
